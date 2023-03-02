@@ -246,16 +246,16 @@ body{
 
 .feed{
      display: flex; 
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
+     align-items: center;
+     justify-content: left;
+     margin-top: 1rem;
 }
 .feed h1{
     font-size: 1.7rem;
 }
 .feed-text{
     display: flex;
-    align-items: center;
+    align-items:end
 }
 .feed-text h2{
     font-size: 1rem;
@@ -286,9 +286,9 @@ body{
    
 }
 .post-info{
-display: flex;
-align-items: center;
-justify-content: space-between;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 .post-img{
     display: flex;

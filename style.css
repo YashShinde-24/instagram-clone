@@ -240,12 +240,12 @@ body{
     height: 70px;
     border-radius: 50%;
     color: #fff;
-    background: hsla(246, 100%, 67%, 0.47);
+    background: hsla(246, 100%, 67%, 0.7);
 }
 
 
 .feed{
-    /* display: flex; */
+     display: flex; 
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
@@ -278,11 +278,17 @@ body{
     width: 300px;
 }
 
-.post-box immg{
+.post-box img{
     width: 100%;
     height: 344px;
     object-fit: cover;
-    justify-content: space-between;
+    border-radius: 0.5rem;
+   
+}
+.post-info{
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 .post-img{
     display: flex;
@@ -311,10 +317,12 @@ body{
 .likes{
     display: flex;
     align-items: center;
+   
 }
 .likes i{
     font-size: 20px;
     margin-left: 7px;
+    
 }
 .likes span{
     font-size: 14px;
